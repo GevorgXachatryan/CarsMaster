@@ -1,0 +1,130 @@
+@media (max-width: 1235px){
+    .listening-price-link{
+        font-size: 11px;
+    }
+    .slider-title{
+        font-size: 20px;
+    }
+    .merserdes-img{
+        width: 50px;
+        height: 50px;
+    }
+    .car-item-story{
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 1185px){
+    .menu-list{
+        display: none;
+    }
+    .menu-mobile{
+        display: flex;
+        gap: 0 30px;
+    }
+    .nav{
+        align-items: center;
+    }
+    .slider-title{
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+    .attr-story{
+        font-size: 12px;
+    }   
+    .attr-speed{
+        font-size: 16px;
+    }
+    .price-title-sale{
+        font-size: 24px;
+    }
+    .listening-attr img{
+        width: 40px;
+        height: 40px;
+    }
+    .merserdes-img{
+        width: 40px;
+        height: 40px;
+    }
+    .feature-carousel{
+        gap: 0;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 1010px){
+    .menu-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 45px;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        z-index: 10;
+    }
+    .menu-btn span{
+        height: 3px;
+        width: 40px;
+        background-color: #fff;
+    }
+    .menu-mobile{
+        display: none;
+    }
+    .menu-mobile.menu--open{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000;
+        height: 100vh;
+        z-index: 5px;
+        text-align: center;
+        padding-top: 140px;
+    }
+    .logo{
+        z-index: 5;
+    }
+    .menu-link{
+        font-size: 21px;
+        display: block;
+        padding: 20px 0;
+    }
+    .promo-slider{
+        margin: 0;
+    }
+    .info-inner{
+        flex-direction: column;
+    }
+    .info-part-left{
+        width: 100%;
+    }
+    .collage-wrap{
+        flex-direction: row;
+        justify-content: space-around;
+        height: 287px;
+        margin-bottom: 40px;
+    }
+    .collage-wrap img{
+       position: static;
+       z-index: 5;
+       border: none;
+       width: 277px;
+       height: 277px;
+    }
+    .listing-last-item{
+        display: none;
+    }
+    .recently-title{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .recently-head{
+        flex-direction: column;
+    }
+}
